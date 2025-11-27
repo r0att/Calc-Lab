@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculus Lab</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
 
+    <header class="header">
+        <h1 class="title">Calculus Lab</h1>
+        <p class="subtitle">Interaktywne narzędzia do rachunku różniczkowego i całkowego</p>
+    </header>
+
+    <main class="container">
+        <div class="card-grid">
+
+            <a href="/derivative" class="card">
+                <h2>Pochodne</h2>
+                <p>Obliczaj pochodne i ich wykresy</p>
+            </a>
+
+            <a href="/integral" class="card">
+                <h2>Całki</h2>
+                <p>Całki oznaczone i nieoznaczone</p>
+            </a>
+
+            <a href="/analysis" class="card">
+                <h2>Analiza funkcji</h2>
+                <p>Ekstrema, asymptoty, monotoniczność</p>
+            </a>
+
+            <a href="/graphing" class="card">
+                <h2>Wykresy</h2>
+                <p>Wykresy 2D i powierzchnie 3D</p>
+            </a>
+
+            <a href="/differential" class="card">
+                <h2>Równania różniczkowe</h2>
+                <p>Pola kierunkowe i rozwiązania</p>
+            </a>
+
+            <a href="/about" class="card">
+                <h2>O projekcie</h2>
+                <p>Informacje o autorze i repozytorium</p>
+            </a>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Calculus Lab</p>
+    </footer>
+
+</body>
+</html>
